@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="init()">
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <ul>
+        <li>
+            <input id="iterationcnt" value="128" type="number">
+            <button onclick="changeIterations()">Set iterations (how many times to calculate the mandelbrot per pixel)</button>
+        </li>
+        <li>
+            <input id="resolution" value="4" type="number">
+            <button onclick="changeResolution()">Set resolution (how big is 1 pixel)</button>
+        </li>
+    </ul>
+    <script src="index.js"></script>
+</body>
+</html>
